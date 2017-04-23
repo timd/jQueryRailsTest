@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
     session[:clicked] = nil
   end
   
-  def ping
+  def post
     
     if session[:clicked] == params[:id]
       session[:clicked] = nil
