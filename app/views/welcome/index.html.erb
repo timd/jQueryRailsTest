@@ -5,7 +5,7 @@
 	<p><code>custom.js</code> adds a custom function to any instances of a click event that occurs inside the <code>options</code> div.</p>
 	<p>Clicking an instance trigger an AJAX <code>POST</code> to the root of the site, handled by the <code>post</code> method in the <code>welcome</code> controller. The <code>id</code> of the clicked element is sent across in the query string.</p>
 	<p>The <code>id</code> is extracted and stored in the <code>session</code>. If the same element is clicked twice, the <code>session</code>'s <code>id</code> value is reset to <code>nil</code>.</p>
-	<p>The clicked <code>id</code> is returned as JSON to the custom function. This first clears any instances of the <code>highlighted</code> from the <code>options</code> div, then selects the clicked span and adds the <code>highighted<code> class to it. If no id has been returned (because the same element has been clicked twice) then no span will be selected.</p>
+	<p>The clicked <code>id</code> is returned as JSON to the custom function. This first clears any instances of the <code>highlighted</code> from the <code>options</code> div, then selects the clicked span and adds the <code>highlighted</code> class to it. If no id has been returned (because the same element has been clicked twice) then no span will be selected.</p>
 		</div>
 
 <div class="options">
